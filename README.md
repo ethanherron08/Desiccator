@@ -1,4 +1,3 @@
-README.TXT
 ABOUT:
 Desiccator is an app for recording change in weight over an extended period of time.
 I made it to simplify moisture studies on donuts, but it can be used to record weight for any application.
