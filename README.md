@@ -1,6 +1,3 @@
-# Desiccator
-Python project for logging weight from gram scales over time
-
 README.TXT
 ABOUT:
 Desiccator is an app for recording change in weight over an extended period of time.
@@ -9,9 +6,7 @@ The only restriction is the app is designed around the protocol the Ohaus Advent
 make sure you only use this scale, or else the program will not work!
 
 HOW TO USE:
-
-First, extract Desiccator.zip to a folder of your liking
-
+Open Desiccator.exe
 Set your scale to the right protocol
 	Set scale to read in Grams by navigating to Item Settings>Weighing Units, and select Grams. Select Exit at the bottom of the touchscreen
 	Navigate to Menu>Communication>RS232 Standard>Baud Rate and select 9600
@@ -26,15 +21,13 @@ Set the auto-print interval on your scale
 	Key in your desired frequency. The scale will output a reading every this-many seconds.
 		For long recordings (>48 hours), this should be set to a minimum of 60 seconds to avoid huge file sizes.
 Connect the scale to Desiccator
-	Open Device Manager on your computer. You can search for it in the Start menu or do Windows+R, type "devmgmt.msc", and run.
-	Navigate to Ports (COM & LPT), and open the drop-down menu.
-	Take note of which COM numbers are already in use. eg. COM1, COM2, COM3... These appear at the end of each device's name.
-	Plug the scale into a USB port on your computer.
-	Device manager will refresh. Take note of the new COM number. This is the port assigned to your scale.
-	Open Desiccator.exe, click Refresh Ports, and select the port assigned to your scale.
-		Note: "Test Port" function should only be used when you are auto-printing in very short intervals (<5 seconds)
-	Your scale is now connected to Desiccator!
+	Without the scale connected to your computer, click the Refresh button, followed by the "port" drop down and take note of the available ports.
+	Connect the scale via USB
+	Click refresh again, click the drop down once more, and select the port that was not available before connecting.
+	Click "Test Port"
+	If that was successful, your scale is now connected to Desiccator!
 Start recording
+	If you seelcted the correct protocol in the first section of the directions, there should be no need to tamper with the default serial settings.
 	With the scale connected, click Select CSV File in Desiccator. Create a file with your desired name where you would like to save the weight log.
 	Click Start Logging!
 	You should now see a timestamped recording at the bottom of the screen. You should also see a new .csv file in the location you previoulsy specified.
