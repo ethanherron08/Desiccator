@@ -34,5 +34,4 @@ Start recording
 When you're done, click Stop Logging to safely stop the logging process.
 
 This is open source software so feel free to modify, copy, iterate, etc.. 
-Source python code can be found in the /source directory of the zip
 -Ethan H 
